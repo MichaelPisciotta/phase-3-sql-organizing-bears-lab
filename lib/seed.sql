@@ -7,3 +7,10 @@ INSERT INTO bears (id, name, age, sex, color, temperament, alive) VALUES
 (6,"Grinch", 2, "M", "Black", "Grinchy", 1),
 (7,"Wendy", 6, "F", "Blue", "naive", 1),
 (8,null, 20, "M", "black", "aggressive", 0);
+
+
+  "SELECT bears.name, bears.age FROM bears WHERE sex='F';"
+  "SELECT bears.name FROM bears ORDER BY Alphabet;"
+  "SELECT bears.name FROM bears WHERE alive = 0 ORDER BY age ;"
+  "SELECT bears.name, bears.age FROM bears ORDER BY age DESC LIMIT 1 ;"
+  "SELECT bears.name, bears.age FROM bears ORDER BY age  LIMIT 1 ;"
